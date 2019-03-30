@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  "Welcome to Jerry小站!"
 date:   2019-03-30 15:52:45
 author: Mine4ever
