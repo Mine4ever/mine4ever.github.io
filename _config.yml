@@ -15,8 +15,8 @@ disqus: diqus-username
 
 highlighter: rouge
 markdown: kramdown
-redcarpet:
-  extensions: ["tables"]
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
 
 defaults:
   - scope:
@@ -29,3 +29,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+
+friends: [
+    {
+        title: "flyzy小站",
+        href: "https://www.flyzy2005.cn"
+    }
+]
