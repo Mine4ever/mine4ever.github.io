@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to Jerry小站!"
 date:   2019-03-30 15:52:45
 author: Mine4ever
-# categories: jekyll update
+categories: {{ site.baseurl }} {{post.url}} 2019
 ---
 没啥好说的，拜个早年吧。
 
