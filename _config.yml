@@ -7,7 +7,6 @@ twitter: http://www.twitter.com/
 facebook: http://www.facebook.com
 linkedin: http://www.linkedin.com
 email: Mine4ever97[at]foxmail.com
-location: 42°2'16"N   70°12'47"W
 disqus: diqus-username
 
 ##Make sure to edit the above fields, especially for disqus.
@@ -18,22 +17,25 @@ markdown: kramdown
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+# defaults:
+#   - scope:
+#       path: ""
+#       type: "pages"
+#     values:
+#       layout: "default"
+#   - scope:
+#       path: ""
+#       type: "posts"
+#     values:
+#       layout: "post"
 
 
 friends: [
     {
         title: "flyzy小站",
         href: "https://www.flyzy2005.cn"
+    },{
+        title: "Louis的iOS开发小站",
+        href: "http://louisly.com"
     }
 ]
