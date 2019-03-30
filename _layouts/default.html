@@ -1,15 +1,19 @@
 ---
-layout: compress
 ---
 <!DOCTYPE html>
 <html lang="en">
-    {% include head.html %}
-    <body>
-        {% include svg-icons.html %}
-        {% include header-default.html %}
-            <main role="main" class="content">
-                {{ content }}
-            </main>
-        {% include scripts.html %}
-    </body>
+  <head>
+    {% include header.html %}
+  </head>
+  <body>
+    <div class="nav-toggle"><i class="fa fa-bars fa-2x"></i> Herring Cove </div>
+    <div id = "wrapper">
+      {%include navigation.html %}
+      <div class="container">
+        {{ content }}
+      </div>
+      {% include footer.html %}
+    </div>
+    {% include scripts.html %}
+  </body>
 </html>
