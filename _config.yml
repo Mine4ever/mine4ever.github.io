@@ -30,12 +30,12 @@ defaults:
       layout: "post"
 
 
-friends: [
-    {
-        title: "flyzy小站",
-        href: "https://www.flyzy2005.cn"
-    },{
-        title: "Louis的iOS开发小站",
-        href: "http://louisly.com"
-    }
-]
+# friends: [
+#     {
+#         title: "flyzy小站",
+#         href: "https://www.flyzy2005.cn"
+#     },{
+#         title: "Louis的iOS开发小站",
+#         href: "http://louisly.com"
+#     }
+# ]
