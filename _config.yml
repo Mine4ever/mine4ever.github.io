@@ -7,7 +7,6 @@ twitter: http://www.twitter.com/
 facebook: http://www.facebook.com
 linkedin: http://www.linkedin.com
 email: Mine4ever97[at]foxmail.com
-disqus: diqus-username
 
 ##Make sure to edit the above fields, especially for disqus.
 
@@ -29,7 +28,9 @@ defaults:
     values:
       layout: "post"
 
-
+# Comment
+comment:
+    disqus: mine4ever
 # friends: [
 #     {
 #         title: "flyzy小站",
