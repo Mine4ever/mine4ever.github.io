@@ -22,6 +22,9 @@ comment:
 featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
+# Baidu 统计 （自己百度搜索百度统计获得自己的追踪代码）
+ba_track_id: 8d9720b5c989c12b0a9429dc93086e46
+
 defaults:
   - scope:
       path: ""
