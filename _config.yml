@@ -1,6 +1,6 @@
 name: Mine4ever
 author: Jerry Liang
-baseurl: ""
+#baseurl: ""
 description: Jerry小站
 github: https://github.com/Mine4ever
 twitter: http://www.twitter.com/
@@ -16,6 +16,12 @@ markdown: kramdown
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
+comment:
+  disqus: mine4ever
+
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
 defaults:
   - scope:
       path: ""
@@ -27,16 +33,3 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-
-# Comment
-comment:
-    disqus: mine4ever
-# friends: [
-#     {
-#         title: "flyzy小站",
-#         href: "https://www.flyzy2005.cn"
-#     },{
-#         title: "Louis的iOS开发小站",
-#         href: "http://louisly.com"
-#     }
-# ]

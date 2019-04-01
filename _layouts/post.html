@@ -7,6 +7,11 @@ layout: default
     <small>
       &nbsp;<i class="fa fa-calendar-o"></i> {{ page.date | date_to_string}}
     </small>
+    <div class="tags">
+        {% for tag in page.tags %}
+        <a class="tag" href="{{ site.baseurl }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
+        {% endfor %}
+    </div>
   </p> <hr/>
   <div class="post">
     {{ content }}
