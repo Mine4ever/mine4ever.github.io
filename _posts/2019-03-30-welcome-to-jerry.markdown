@@ -15,4 +15,13 @@ tags: Jerry小站 Github
 * [Jekyll官方文档](http://jekyllcn.com)
 * [我的个人博客之旅：从jekyll到hexo](https://blog.csdn.net/u011475210/article/details/79023429)
 
+
+------------
+2019.04.05更新
+* 免费域名注册：[免费顶级域名+github个人主页的教程](https://blog.csdn.net/lyp_hy/article/details/82116255)
+  * 用CANME解析Name项不能空，解析成功后(ping的通)，域名还是无法访问
+  * 最好再加上A解析，Target：192.30.252.153
+  * ![Image]({{ site.baseurl }}/images/domain.png)
+* 用国内ip在freenom申请域名总是被cancel，可以用科学的方法试试
+
 ![Image]({{ site.baseurl }}/images/welcome.jpg)
