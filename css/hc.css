@@ -64,6 +64,13 @@ p
   padding-top:30px
 }
 
+.container_resume
+{
+  width:200%;
+  padding-right:0px;
+  padding-top:30px
+}
+
 .container a
 {
   border-bottom:1px #8a8a8a dotted;
