@@ -1,0 +1,42 @@
+<div class="container">
+  <footer>
+    <p class="text-muted credit">
+      &copy; {{ site.time | date: '%Y' }} {{ site.name }} &middot;
+      <a href="https://github.com/arnp/herring-cove"> Herring Cove for Jekyll </a>
+      {{ site.time }}
+    </p>
+  </footer>
+  <div class="cb-search-tool" style="position: fixed; top: 0px ; bottom: 0px; left: 0px; right:  0px;opacity: 0.95; background-color: #111111; z-index: 9999; display: none;">
+      <input type="text" class="form-control cb-search-content" id="cb-search-content" style="position: fixed; top: 60px" placeholder="文章标题 日期 标签" >
+      <div style="position: fixed; top: 16px; right: 16px;">
+        <img src="/search/img/cb-close.png"  id="cb-close-btn"/>
+      </div>
+  </div>
+
+  <div style="position: fixed; right: 16px; bottom: 20px;">
+    <img src="/search/img/cb-search.png"  id="cb-search-btn"  title="双击ctrl试一下"/>
+  </div>
+  <link rel="stylesheet" href="{{ "/search/css/cb-search.css" | prepend: site.baseurl }}">
+
+  <script src="{{ "/search/js/bootstrap3-typeahead.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/search/js/cb-search.js" | prepend: site.baseurl }}"></script>
+
+</div>
+
+
+
+<!-- Baidu 统计 -->
+{% if site.ba_track_id %}
+<script>
+
+    var _baId = '{{ site.ba_track_id }}';
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+{% endif %}
